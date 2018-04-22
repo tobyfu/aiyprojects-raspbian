@@ -35,6 +35,7 @@ class _StatusUi(object):
         self._state_map = {
             "starting": aiy.voicehat.LED.PULSE_QUICK,
             "ready": aiy.voicehat.LED.BEACON_DARK,
+            "sleeping": aiy.voicehat.LED.OFF,
             "listening": aiy.voicehat.LED.ON,
             "thinking": aiy.voicehat.LED.PULSE_QUICK,
             "stopping": aiy.voicehat.LED.PULSE_QUICK,
